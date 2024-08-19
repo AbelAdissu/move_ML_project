@@ -1,0 +1,18 @@
+# Data Handling and Manipulation
+pandas==1.5.3
+
+# Machine Learning
+scikit-learn==1.2.2
+
+# JSON Handling
+jsonschema==4.17.3
+
+# Image Processing (if needed for image handling)
+Pillow==9.4.0
+
+# Neural Networks and Deep Learning (for text generation models)
+tensorflow==2.13.0
+transformers==4.31.0
+
+# For handling paths
+pathlib==1.0.1
