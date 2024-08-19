@@ -16,9 +16,3 @@ class MovieDescriptionException(Exception):
     def __str__(self):
         return self.error_message
 
-
-try:
-    # Some operation that might raise an exception
-    pass
-except Exception as e:
-    raise MovieDescriptionException("An error occurred during the movie description generation process.", sys) from e
